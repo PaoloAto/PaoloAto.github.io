@@ -3,6 +3,9 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { AiOutlineLink } from 'react-icons/ai';
+
+
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -19,7 +22,8 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <br />
+              <TitleContent>Tech Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -27,8 +31,11 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+                {p.links.map((t, i) => {
+                  return <ExternalLinks key={i} href = {t} target="_blank"> <AiOutlineLink size="1.5rem" /> </ExternalLinks>;
+                })}
+              {/* <ExternalLinks href={p.visit}>Code</ExternalLinks>
+              <ExternalLinks href={p.source}>Source</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         );

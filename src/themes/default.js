@@ -1,7 +1,8 @@
 export default {
   // Temp fonts
+  // Fonts: Space Grotesk
   fonts: {
-    title: "Space Grotesk, sans-serif",
+    title: "Open Sans, sans-serif",
     main: "Space Grotesk, sans-serif"
   },
   // Colors for layout

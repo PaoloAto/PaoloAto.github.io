@@ -21,9 +21,9 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#resume">
-          <NavLink>Resume</NavLink>
-        </Link>
+        {/* <Link href="#resume">
+        </Link> */}
+        <NavLink href="https://drive.google.com/file/d/1C-z7Bj37pCAawNCiUnS6uKl5LarDvWAg/view?usp=sharing" target="_blank">Resume</NavLink>
       </li>        
       <li>
         <Link href="#about">
@@ -38,9 +38,9 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/paolo-miguel-ato-518202191/" target="_blank" >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:atopaolo@gmail.com">
+      {/* <SocialIcons href="mailto:atopaolo@gmail.com">
         <AiOutlineMail size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
         {/* <SocialIcons href="https://google.com">
           <AiFillInstagram size="3rem"/>
         </SocialIcons> */}
