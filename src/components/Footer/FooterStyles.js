@@ -14,6 +14,11 @@ export const FooterWrapper = styled.section`
   }
 `
 
+export const Span = styled.span`
+	margin-bottom: 20px
+`
+
+
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;

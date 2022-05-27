@@ -1,6 +1,6 @@
 import Link from 'next/link'; //Link different pages
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -19,16 +19,17 @@ const Header = () =>  (
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
-      </li>
-      <li>
-        {/* <Link href="#resume">
-        </Link> */}
-        <NavLink href="https://drive.google.com/file/d/1C-z7Bj37pCAawNCiUnS6uKl5LarDvWAg/view?usp=sharing" target="_blank">Resume</NavLink>
-      </li>        
+      </li>      
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
+      </li>  
+      <li>
+        {/* <Link href="#resume">
+        </Link> */}
+        {/* <NavLink href="https://drive.google.com/file/d/1C-z7Bj37pCAawNCiUnS6uKl5LarDvWAg/view?usp=sharing" target="_blank">Resume</NavLink> */}
+        <NavLink href="/Resume_Paolo_Ato.pdf" target="_blank">Resume</NavLink>
       </li>        
     </Div2>
     <Div3>

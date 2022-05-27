@@ -13,8 +13,9 @@ const Hero = (props) => (
           Hello, I'm <Span>Paolo</Span>. 
         </SectionTitle> 
         <SectionJob style={{ color: 'skyblue'}}>
-          Software Engineer 
-          {/* | <br></br> QA Engineer */}
+          Software Engineer, 
+          <br></br> Backend Developer,
+          <br></br> QA Engineer
         </SectionJob>
         <SectionText>
           <Typewriter 

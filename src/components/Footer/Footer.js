@@ -1,8 +1,9 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMobile, AiOutlineMail } from 'react-icons/ai';
+import { SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Span } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -34,9 +35,6 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/paolo-miguel-ato-518202191/" target="_blank" >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          {/* <SocialIcons href="mailto:atopaolo@gmail.com">
-            <AiOutlineMail size="3rem" />
-          </SocialIcons> */}
             {/* <SocialIcons href="https://google.com">
               <AiFillInstagram size="3rem"/>
             </SocialIcons> */}
