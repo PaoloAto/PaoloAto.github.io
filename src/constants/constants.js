@@ -18,7 +18,7 @@ export const projects = [
   {
     title: 'Akads PH',
     description:"Conducted in-depth testing on various use cases for a React.js-based front end web application. Developed robust testing scripts using Cypress to create an end-to-end testing framework for test automation of the website.",
-    image: '/images/akads_logo.png',
+    image: '/images/akads_logo.jpg',
     tags: ['Cypress', 'Quality Assurance', 'Automation Tests'],
     links: ['https://www.akadsph.com/'],
     id: 2,
