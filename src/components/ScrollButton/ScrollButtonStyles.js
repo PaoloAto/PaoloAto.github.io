@@ -20,7 +20,6 @@ font-size: 3rem;
 z-index: 1;
 cursor: pointer;
 color: rgba(255, 255, 255, 0.75);
-line-height: 32px;
 transition: 0.5s ease;
 &:hover {
     color: #87ceeb;

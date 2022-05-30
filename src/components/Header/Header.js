@@ -19,7 +19,12 @@ const Header = () =>  (
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
-      </li>      
+      </li>  
+      <li>
+        <Link href="#tech">
+          <NavLink>Skills</NavLink>
+        </Link>
+      </li>     
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
@@ -30,7 +35,8 @@ const Header = () =>  (
         </Link> */}
         {/* <NavLink href="https://drive.google.com/file/d/1C-z7Bj37pCAawNCiUnS6uKl5LarDvWAg/view?usp=sharing" target="_blank">Resume</NavLink> */}
         <NavLink href="/Resume_Paolo_Ato.pdf" target="_blank">Resume</NavLink>
-      </li>        
+      </li> 
+       
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/PaoloAto" target="_blank" >

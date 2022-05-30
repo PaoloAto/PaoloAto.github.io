@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {FaAngleDoubleUp} from 'react-icons/fa';
 import { Button } from './ScrollButtonStyles';
 
@@ -22,10 +22,19 @@ const ScrollButton = () =>{
         behavior: 'smooth'
         });
     };
-    if (typeof window !== "undefined") {
-        // browser code
+
+    useEffect(() => {
         window.addEventListener('scroll', toggleVisible);
-      }
+
+        return () => {
+            window.removeEventListener('scroll', toggleVisible);
+        }
+    },[])
+
+    // if (typeof window !== "undefined") {
+    //     // browser code
+    //     window.addEventListener('scroll', toggleVisible);
+    //   }
     
 
     return (
