@@ -10,7 +10,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technical Skills</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     {/* <SectionText>
       I've worked with a range a technologies in the web development world.
       From Back-end To Design

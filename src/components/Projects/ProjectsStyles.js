@@ -69,7 +69,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  color: rgba(255, 255, 255, 0.75);
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -89,14 +89,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#000000;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: rgba(255, 255, 255, 0.75);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #87ceeb;
 
 }
 `;
@@ -107,6 +107,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #48ffd5;
 font-size: 1.5rem;
 `

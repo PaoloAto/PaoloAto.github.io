@@ -43,6 +43,7 @@ export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
+  
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
@@ -71,9 +72,10 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  /*background: linear-gradient(121.57deg, #FFFFFF 10%, #87ceeb 30.15%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: #87ceeb;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -98,9 +100,16 @@ export const CarouselItemImg = styled.svg`
     overflow: visible;
   }
 `
+export const Logo = styled.img`
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin-left:20px;
+`
 
 export const CarouselItemText = styled.p`
-  font-size: 14px;
+  margin-top:10px;
+  font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);

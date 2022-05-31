@@ -26,7 +26,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Bachelor of Science in Computer Science @ De La Salle University Manila'},
-  { year: 2022, text: 'Master of Science in Computer Science @ National Taiwan University of Science and Technology(國立臺灣工業技術學院)'},
-  { year: 2022, text: 'Master of Science in Computer Science @ De La Salle University Manila'},
+  { year: 2020, text: 'Bachelor of Science in Computer Science @ De La Salle University Manila', image: '/images/dlsu.png'},
+  { year: 2022, text: 'Master of Science in Computer Science @ National Taiwan University of Science and Technology (國立臺灣工業技術學院)', image: '/images/ntust.png'},
+  { year: 2022, text: 'Master of Science in Computer Science @ De La Salle University Manila', image: '/images/dlsu.png'},
 ];
