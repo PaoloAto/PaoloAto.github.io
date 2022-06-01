@@ -33,6 +33,7 @@ export const CarouselContainer = styled.ul`
   }
 `
 export const CarouselMobileScrollNode = styled.div`
+  margin: 3rem 0;
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
@@ -100,11 +101,14 @@ export const CarouselItemImg = styled.svg`
     overflow: visible;
   }
 `
+
+// display: block;
 export const Logo = styled.img`
   width: 120px;
   height: 120px;
   overflow: hidden;
-  margin-left:20px;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 export const CarouselItemText = styled.p`

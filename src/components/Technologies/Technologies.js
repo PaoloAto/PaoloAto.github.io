@@ -83,6 +83,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem> */}
     </List>
+    <span style={{ margin: '3rem 0'}}></span>
     <SectionDivider colorAlt />
   </Section>
 );

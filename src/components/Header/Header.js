@@ -31,9 +31,6 @@ const Header = () =>  (
         </Link>
       </li>  
       <li>
-        {/* <Link href="#resume">
-        </Link> */}
-        {/* <NavLink href="https://drive.google.com/file/d/1C-z7Bj37pCAawNCiUnS6uKl5LarDvWAg/view?usp=sharing" target="_blank">Resume</NavLink> */}
         <NavLink href="/Resume_Paolo_Ato.pdf" target="_blank">Resume</NavLink>
       </li> 
        

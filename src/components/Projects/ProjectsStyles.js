@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width:70%;
+  height:70%;
   object-fit: cover;
   overflow: hidden;
+  margin-top:20px;
 `
 
 export const GridContainer = styled.section`
@@ -107,6 +108,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #48ffd5;
+color: #d0bb57;
 font-size: 1.5rem;
 `

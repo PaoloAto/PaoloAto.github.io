@@ -33,7 +33,7 @@ const Hero = (props) => (
             }}
             />
         </SectionText>
-        {/* <Button onClick={props.handleClick}>Contact</Button> */}
+        {/* <Button onClick={props.handleClick}>Resume</Button> */}
       </LeftSection>
     </Section>
 );
