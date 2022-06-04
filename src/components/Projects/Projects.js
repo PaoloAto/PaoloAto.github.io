@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 import { AiOutlineLink } from 'react-icons/ai';
 
-
+const prefix = '/portfolio-website'
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -15,7 +15,7 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
+          <Img src={prefix + p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
