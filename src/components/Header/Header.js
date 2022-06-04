@@ -5,6 +5,8 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
+const prefix = '/portfolio-website'
+
 const Header = () =>  (
   <Container>
     <Div1>
@@ -31,7 +33,7 @@ const Header = () =>  (
         </Link>
       </li>  
       <li>
-        <NavLink href="/Resume_Paolo_Ato.pdf" target="_blank">Resume</NavLink>
+        <NavLink href={prefix + "/Resume_Paolo_Ato.pdf"} target="_blank">Resume</NavLink>
       </li> 
        
     </Div2>
