@@ -4,6 +4,8 @@ import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
+const prefix = '/portfolio-website'
+
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
@@ -93,7 +95,7 @@ const Timeline = () => {
                   </CarouselItemImg>
                 </CarouselItemTitle>
                 <picture>
-                  <Logo src={item.image} />
+                  <Logo src={prefix + item.image} />
                 </ picture>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
