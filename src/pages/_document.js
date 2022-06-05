@@ -1,7 +1,8 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { prefix } from '../../constants/prefix.js';
 
-const prefix = '/portfolio-website'
+// const prefix = '/portfolio-website'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {

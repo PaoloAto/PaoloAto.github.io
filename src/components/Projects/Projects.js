@@ -4,8 +4,9 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import { AiOutlineLink } from 'react-icons/ai';
+import { prefix } from '../../constants/prefix.js';
 
-const prefix = '/portfolio-website'
+// const prefix = '/portfolio-website'
 
 const Projects = () => (
   <Section nopadding id="projects">

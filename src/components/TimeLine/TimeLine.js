@@ -3,8 +3,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, Logo } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import { prefix } from '../../constants/prefix.js';
 
-const prefix = '/portfolio-website'
+// const prefix = '/portfolio-website'
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 

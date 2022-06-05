@@ -1,4 +1,4 @@
 module.exports = {
-    basePath: '/portfolio-website',
-    assetPrefix: '/portfolio-website'
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
   }
