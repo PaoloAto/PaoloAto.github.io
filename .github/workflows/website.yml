@@ -6,7 +6,7 @@ on:
     branches: [main]
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /
+      NEXT_PUBLIC_BASE_PATH: /PaoloAto.github.io
 
 
 jobs:
